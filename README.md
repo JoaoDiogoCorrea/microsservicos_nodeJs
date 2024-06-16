@@ -1,10 +1,33 @@
-# Arquitetura dos Microsserviços
+# Arquitetura de Microsserviços
 
-Este repositório contém três serviços principais:
-
-1. **Serviço de Cadastro de Alunos - FEITO**
-2. **Serviço de Acompanhamento de Presença**
-3. **Serviço de Relatório**
+![Tecnologias utilizadas](http://img.shields.io/static/v1?label=STATUS&message=NODEJS&color=RED&style=for-the-badge)
 
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
+Este repositório contém três serviços principais:
+
+1. **Serviço de Cadastro de Alunos - Responsável por gerenciar os dados dos alunos.**
+2. **Serviço de Acompanhamento de Presença - Responsável por registrar e consultar as presenças dos alunos.**
+3. **Serviço de Relatório**
+<br>
+
+## 🛠️ Abrir e rodar o projeto
+
+- cd attendance-service
+- npm install
+
+- cd ../attendance-service
+- npm install
+
+### terminal 1
+- cd attendance-service
+- node src/server.js
+
+### terminal 2
+- cd student-service
+- node src/server.js
+
+<h4 align="center"> 
+    :construction:  Projeto em construção  :construction:
+</h4>
