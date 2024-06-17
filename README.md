@@ -39,12 +39,10 @@ Este repositório contém três serviços principais:
 - cd attendance-service
 - node src/server.js
 
-#### Métodos HTTP do REST para Serviço de Cadastro de Alunos
-- POST /students - Cria um novo aluno -> Json enviado no body  { "studentId": "ID do aluno cadastrado", "date": "2024-06-15", "status": "Present" }
-- GET /students - Retorna todos os alunos
-- GET /students/:id - Retorna um aluno específico pelo ID
-- PUT /students/:id - Atualiza um aluno específico pelo ID
-- DELETE /students/:id - Deleta um aluno específico pelo ID
+#### Métodos HTTP do REST para Serviço de Acompanhamento de Presença
+- POST /attendance - Marca a presença de um aluno -> Json enviado no body  { "studentId": "ID do aluno cadastrado", "date": "2024-06-15", "status": "Present" }
+- GET /attendance - Retorna todas as presenças
+- GET /attendance/student/:studentId - Retorna as presenças de um aluno específico pelo ID do alun
 
 ### Terminal 3
 - cd report-service
