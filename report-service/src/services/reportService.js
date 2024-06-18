@@ -11,6 +11,21 @@ const generateStudentReport = async (studentId) => {
   };
 };
 
+const generateAllStudentsReport = async () => {
+  const students = await studentService.getAllStudents();
+
+  const reports = await Promise.all(students.map(async (student) => {
+    const attendance = await attendanceService.getAttendanceByStudentId(student._id);
+    return {
+      student,
+      attendance,
+    };
+  }));
+
+  return reports;
+};
+
 module.exports = {
   generateStudentReport,
+  generateAllStudentsReport,
 };

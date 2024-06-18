@@ -48,4 +48,8 @@ Este repositório contém três serviços principais:
 - cd report-service
 - node src/server.js
 
+#### Métodos HTTP do REST para Serviço de Relatório de Presença
+- GET /report/students - Retorna o relatório de todos os alunos e seus registros de presença
+- GET report/student/:studentId - Retorna o relatório de um alunos específico e seus registros de presença
+
 
