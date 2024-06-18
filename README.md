@@ -29,7 +29,7 @@ Este repositório contém três serviços principais:
 - cd student-service
 - node src/server.js
 
-#### Métodos HTTP do REST para Serviço de Cadastro de Alunos
+#### Métodos HTTP para Serviço de Cadastro de Alunos
 - POST /students - Cria um novo aluno -> Json enviado no body  { "name": "Nome estudante", "email": "emailEstudante@gmail.com", "course": "Nome do curso Ex. Inglês" }
 - GET /students - Retorna todos os alunos
 - GET /students/:id - Retorna um aluno específico pelo ID
@@ -40,7 +40,7 @@ Este repositório contém três serviços principais:
 - cd attendance-service
 - node src/server.js
 
-#### Métodos HTTP do REST para Serviço de Acompanhamento de Presença
+#### Métodos HTTP para Serviço de Acompanhamento de Presença
 - POST /attendance - Marca a presença de um aluno -> Json enviado no body  { "studentId": "ID do aluno cadastrado", "date": "2024-06-15", "status": "Present" }
 - GET /attendance - Retorna todas as presenças
 - GET /attendance/student/:studentId - Retorna as presenças de um aluno específico pelo ID do alun
@@ -49,7 +49,7 @@ Este repositório contém três serviços principais:
 - cd report-service
 - node src/server.js
 
-#### Métodos HTTP do REST para Serviço de Relatório de Presença
+#### Métodos HTTP para Serviço de Relatório de Presença
 - GET /report/students - Retorna o relatório de todos os alunos e seus registros de presença
 - GET report/student/:studentId - Retorna o relatório de um alunos específico e seus registros de presença
 
