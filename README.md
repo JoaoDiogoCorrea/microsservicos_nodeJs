@@ -6,7 +6,7 @@
 
 ## Requisitos do Projeto
 
-### Funcionalidade:
+### Funcionalidade da API:
 
 - Gerenciar o cadastro de alunos.
 - Realizar operações CRUD (Create, Read, Update, Delete) para alunos.
