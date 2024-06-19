@@ -7,6 +7,15 @@
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/mongodb-6DA55F?style=for-the-badge&logo=mongodb&logoColor=white)
 
+
+## Requisitos do Projeto
+
+### Funcionalidade:
+
+- Gerenciar o cadastro de alunos.
+- Realizar operações CRUD (Create, Read, Update, Delete) para alunos.
+
+
 Este repositório contém três serviços principais:
 
 1. **Serviço de Cadastro de Alunos - Responsável por gerenciar os dados dos alunos.**
